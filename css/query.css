@@ -1,0 +1,140 @@
+
+@media (min-width:650px){ 
+    .creation-img-title{
+font-size: 2.4rem;
+     
+        left:10%;
+
+    }
+
+}
+@media (min-width:768px){
+    .main-nav{
+        display: block;
+    }
+    .main-nav-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:2rem;
+      
+    
+    
+    }
+    .main-nav-item:link,
+    .main-nav-item:visited{
+        font-size: 2rem;
+        color:white;
+    
+    }
+    .main-nav-item:hover,
+    .main-nav-item:active{
+
+   border-bottom: 2px solid white ;
+}
+    .btn-mobile-nav{
+        display: none;
+    }
+    .footer .container{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .secondary-nav-list{
+        display: flex;
+       
+    }
+    .creations-gallary{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap:1rem;
+     }
+     .creation-img-title{
+
+        top:45%;
+
+    }
+}
+
+@media(min-width:900px){
+    .heading-primary{
+        font-size: 6rem;
+     
+       
+        left:40%;
+       
+        border:3px solid white;
+        padding:3rem;
+       
+       
+    }
+    .creations-gallary{
+ 
+        grid-template-columns: repeat(4,1fr);
+        row-gap:1rem;
+       
+     }
+     .creation-img-title{
+
+        top:75%;
+
+    }
+}
+@media(min-width:1200px){
+    .container{
+        max-width: 1300px;
+    }
+    .sec-hero{
+        background-image: url("../images/desktop/image-hero.jpg");
+    }
+    .heading-primary{
+        font-size: 7rem;
+        top:55%;
+      left:35%;
+       
+        border:3px solid white;
+      
+        max-width: 70rem;
+       
+    }
+
+    .sec-about{
+       
+        position: relative;
+        margin-bottom:15rem;
+        margin-top:15rem;
+    }
+    .about-content{
+        position: absolute;
+        top:45%;
+        left:48%;
+        background-color:white;
+        max-width:50rem;
+        padding:2rem;
+
+    }
+   .creations-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    text-align: left;
+padding: 0 4rem;
+
+
+ 
+   }
+   .creations-header .heading-secondary {
+    margin:0;
+   }
+   .sm-screen-btn{
+    opacity: 0;
+    visibility: hidden;
+
+   }
+   .large-screen-btn{
+    opacity: 1;
+    visibility: visible;
+   }
+    
+}
