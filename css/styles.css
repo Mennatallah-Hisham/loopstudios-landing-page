@@ -27,6 +27,9 @@ html{
     font-size: 62.5%;
 }
 
+.hide-overflow{
+    overflow-y: hidden;
+}
 
 *{
     margin:0;
